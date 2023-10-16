@@ -11,7 +11,7 @@ function Index() {
       <h2>Hello! 👋🏻</h2>
 
       {userIdentity ? (
-        <p className="app-statement">You're successfully logged in 🎉</p>
+        <p className="app-statement">You are successfully logged in 🎉</p>
       ) : (
         <p className="app-statement">You can now sign in to your account 🎉</p>
       )}
