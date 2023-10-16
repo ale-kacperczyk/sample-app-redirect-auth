@@ -1,10 +1,10 @@
 {
-  "appId": "h0rp5lz4R",
+  "appId": "z7odM6GIg",
   "name": "Template App",
   "install": true,
-  "baseURL": "<your-https-domain-from-ngrok>",
+  "baseURL": "http://localhost:3000/",
   "auth": {
-    "clientId": "<your-client-id-from-dev-console>",
+    "clientId": "d3c9594e63b8e46b2882adf076c041e1",
     "clientType": "javascript_app",
     "scopes": ["agents--all:ro", "sessions-my:rw"],
     "redirectURI": ["%baseURL%"]
