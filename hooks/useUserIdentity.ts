@@ -15,6 +15,7 @@ type UserIdentity = {
 const accountsSDK = new AccountsSDK({
   client_id: Config.lcClientId,
   server_url: Config.lcAccountsURL,
+  prompt: "consent"
 })
 
 const TOKEN_KEY = 'access_token'
